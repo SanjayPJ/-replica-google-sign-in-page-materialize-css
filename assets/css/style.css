@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.card-content{
+    padding: 0 !important;
+    
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main-card{
+    width: 450px;
+    border-radius: 8px;
+    padding: 50px 40px 60px 40px;
+}
+.main-card::before, .main-card::after{
+    min-width: 30px;
+}
+.main-card img{
+    height: 26px;
+    margin-left: -1px;
+}
+h5{
+    font-size: 24px;
+}
+h6{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+}
+small{
+    font-size: 12px;
+}
+.learnmore-container{
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.input-field.col label{
+    left: 0;
+}
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+ul {
+    margin: 2px;
+}
